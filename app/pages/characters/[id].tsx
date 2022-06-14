@@ -1,16 +1,20 @@
 // import { NextPage } from "next";
 // import { Character, GetCharacterResults } from "../types";
 import Image from "next/image";
+import { useRouter } from "next/router";
 import imageLoader from "../../styles/imageLoader";
 import { Character, GetCharacterResults } from "../types";
+import styles from "../../styles/Character.module.css";
 
 // const CharacterPage: NextPage<{ characters: Character[] }> = () => {
 //   return <div>character</div>;
 // };
 
 function CharacterPage({ character }: { character: Character }) {
+  const router = useRouter();
+  console.log(router.query, "라우터쿼리");
   return (
-    <div>
+    <div className={styles.container}>
       <h1>{character.name}</h1>
       <Image
         loader={imageLoader}

@@ -12,6 +12,9 @@ const Home: NextPage<{ characters: Character[] }> = ({ characters }) => {
       {/* <div>{JSON.stringify(characters)}</div> */}
 
       <div>
+        DB_CONNECT:
+        {process.env.NEXT_PUBLIC_DB_CONNECT}
+        <hr />
         {characters.map((character) => {
           return (
             <div key={character.id}>
