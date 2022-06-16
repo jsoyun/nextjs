@@ -1,9 +1,24 @@
 // type AppProps = {
 //   Component: React.ReactNode;
 // };
-export default function Top(): any {
+
+
+import { TopContainer } from './Top.styled'
+
+
+export const Top = () => {
+  return(
   <div>
-    <img src="/images/d44d06c675fd33f1f882b47fef7adc55.jpg" />
-    <div>탑화면 넣기이ㅣ인</div>
-  </div>;
+    <TopContainer>
+      <h1>
+       top컴포넌트
+      </h1>
+      
+
+    </TopContainer>
+
+
+   
+  </div>
+  )
 }
