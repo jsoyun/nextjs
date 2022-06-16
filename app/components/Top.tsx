@@ -4,6 +4,6 @@
 export default function Top(): any {
   <div>
     <img src="/images/d44d06c675fd33f1f882b47fef7adc55.jpg" />
-    <div>dsdfsfdfdfdfsf</div>
+    <div>탑화면 넣기이ㅣ인</div>
   </div>;
 }

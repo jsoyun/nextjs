@@ -19,6 +19,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
   return (
     <>
       <Top />
+    <h1>fdfd</h1>
       <Component {...pageProps} />
     </>
   );
