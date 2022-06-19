@@ -9,11 +9,11 @@ import { Character, GetCharacterResults } from "./types";
 const Home: NextPage<{ characters: Character[] }> = ({ characters }) => {
   return (
     <div>
-      <div>
+      {/* <div>
         DB_CONNECT:
         {process.env.NEXT_PUBLIC_DB_CONNECT}
         <hr />
-      </div>
+      </div> */}
 
       <Link href="/">ㅇㄹㅇㄹㅇ</Link>
       <Link href="/characters">캐릭터</Link>

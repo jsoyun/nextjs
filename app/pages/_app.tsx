@@ -4,7 +4,7 @@ import type { AppProps } from "next/app";
 import Layout from "../components/Layout";
 import { ReactElement, ReactNode } from "react";
 import { NextPage } from "next";
-import {Top} from "../components/Top";
+import { Top } from "../components/Top";
 
 type NextpageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode;
@@ -18,8 +18,8 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
   // const getLayout = Component.getLayout ?? ((page) => page);
   return (
     <>
-      <Top />
-    <h1>fdfd</h1>
+      {/* <Top /> */}
+      <h1>공통으로 들어간곳</h1>
       <Component {...pageProps} />
     </>
   );
