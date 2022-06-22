@@ -18,10 +18,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   // const getLayout = Component.getLayout ?? ((page) => page);
   return (
     <>
-      <SesstionProvider session={pageProps.session}>
-        <h1>공통으로 들어간곳</h1>
-        <Component {...pageProps} />
-      </SesstionProvider>
+      {/* <SesstionProvider session={pageProps.session}> */}
+      <h1>공통으로 들어간곳</h1>
+      <Component {...pageProps} />
+      {/* </SesstionProvider> */}
     </>
   );
 }
