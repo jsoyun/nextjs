@@ -15,8 +15,12 @@ const box = () => {
 export default box;
 const BoxContainer = styled.div``;
 const Container = styled.div`
+  display: flex;
+  justify-content: center;
   /* display: flex; */
 `;
 const Text = styled.div`
   /* display: flex; */
+  border: solid 4px blue;
+  background-color: red;
 `;
