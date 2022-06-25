@@ -3,7 +3,10 @@ import styled from "styled-components";
 const box = () => {
   return (
     <BoxContainer>
-      <Text style={{ color: "red" }}>css테스트</Text>
+      <Center>
+        {" "}
+        <Text style={{ color: "red" }}>css테스트</Text>
+      </Center>
     </BoxContainer>
   );
 };
@@ -22,4 +25,11 @@ const Text = styled.p`
   border: solid 4px blue;
   background-color: red;
   color: blue;
+`;
+const Center = styled.div`
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  left: 0;
+  top: 0;
 `;
