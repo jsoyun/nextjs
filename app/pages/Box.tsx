@@ -5,7 +5,7 @@ const box = () => {
     <BoxContainer>
       <Center>
         {" "}
-        <Text style={{ color: "red" }}>css테스트</Text>
+        <Text style={{ color: "red" }}>css테스트근데 왜 컴포넌트안먹는거지?</Text>
       </Center>
     </BoxContainer>
   );
